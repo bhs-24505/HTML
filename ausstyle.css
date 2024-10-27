@@ -1,6 +1,46 @@
-h1{
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}  
+img{
+    width:100%;
+    border-radius: 5px;
+}
+.hero-text{
+    color:whitesmoke;
+    position:absolute;
     text-align: center;
+    width:100%;
+    top: 65px;
+    font-size: 4rem;
 }
 .hero-image{
-    background-image: url("./images/Australia.jpg");
+    background-image: url("./images/w.jpg");
+    height:250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+}       
+.two-column{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:50px;
+    width:80%;
+    margin:auto;
+    margin-top:40px;
+}
+.three-column{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:30px;
+    width:80%;
+    margin:auto;
+    margin-top:40px;
+    margin-bottom: 50px;
+}
+.card{
+    background-color:yellowgreen ;
+}
+.card-text{
+    text-align: center;
 }
